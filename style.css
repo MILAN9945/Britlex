@@ -35,6 +35,16 @@ body {
     height: 70px;
 }
 
+.header-logo {
+    color: #939393;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.header-sublogo {
+    color: #000;
+}
+
 /* секція hero */
 
 .hero-title {
@@ -130,4 +140,16 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #8f95a5;
+}
+
+/* секція footer */
+
+.footer-logo {
+    color: #939393;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.footer-sublogo {
+    color: #000;
 }
