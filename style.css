@@ -2,6 +2,14 @@ body {
     font-family: "Poppins"
 }
 
+.container {
+    width:1368px ;
+    padding: 0px 15px;
+    outline: solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 :root {
     --title-color: #000;
     --text-color: #8f95a5;
