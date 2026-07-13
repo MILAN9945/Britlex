@@ -45,10 +45,25 @@ body {
 
 /* секція header  */
 
+.header {
+    padding-top: 57px;
+}
+
+.header-container {
+    display: flex;
+}
 .header-link {
     font-weight: 500;
     font-size: 20px;
     color: var(--header-link-color);
+}
+
+.header-list {
+    display: flex;
+    gap: 30px;
+    margin-left: 213px;
+    margin-right: 270px;
+    align-items: center;
 }
 
 .header-button {
@@ -58,14 +73,14 @@ body {
 
     border: 2px solid var(--button-color);
     border-radius: 5px;
-    width: 220px;
-    height: 70px;
+    padding: 17px 57px;
 }
 
 .header-logo {
     color: var(--header-logo-color);
     font-weight: 400;
     font-size: 36px;
+    padding-top: 15px;
 }
 
 .header-sublogo {
@@ -73,18 +88,26 @@ body {
 }
 
 /* секція hero */
+.hero-container {
+    display: flex;
+}
 
+.hero-box {
+
+}
 .hero-title {
     font-weight: 600;
     font-size: 64px;
     line-height: 125%;
     color: var(--title-color);
+    padding-top: 121px;
 }
 
 .hero-text {
     font-weight: 400;
     font-size: 24px;
     color: var(--text-color);
+    margin: 41px 0px;
 }
 
 .hero-img {
@@ -103,6 +126,8 @@ body {
     width: 438px;
     height: 118px;
     background: var(--button-color);
+    padding: 32px 117px;
+    display: block;
 }
 
 /* секція skills */
