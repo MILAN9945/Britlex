@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    width:1368px ;
+    width: 1368px;
     padding: 0px 15px;
     outline: solid red;
     margin-left: auto;
@@ -52,6 +52,7 @@ body {
 .header-container {
     display: flex;
 }
+
 .header-link {
     font-weight: 500;
     font-size: 20px;
@@ -80,7 +81,8 @@ body {
     color: var(--header-logo-color);
     font-weight: 400;
     font-size: 36px;
-    padding-top: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .header-sublogo {
@@ -92,9 +94,8 @@ body {
     display: flex;
 }
 
-.hero-box {
+.hero-box {}
 
-}
 .hero-title {
     font-weight: 600;
     font-size: 64px;
@@ -156,6 +157,10 @@ body {
 
 /* секція about */
 
+.about {
+    padding: 0px 0px 94px;
+}
+
 .about-subtitle {
     font-weight: 600;
     font-size: 48px;
@@ -163,13 +168,50 @@ body {
     color: var(--about-subtitle-color);
 }
 
+.about-container {
+    display: flex;
+    gap: 170px;
+}
+
+.about-list {
+    display: flex;
+    gap: 188px;
+    margin-top: 59px;
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-title {
+    margin-bottom: 23px;
+}
+
 /* секція pricing */
+
+.pricing {
+    padding: 94px 0px 128px;
+}
+
+.pricing-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 83px;
+}
+
+.pricing-list {
+    display: flex;
+    gap: 138px;
+}
 
 .pricing-subtitle {
     font-weight: 600;
     font-size: 30px;
     line-height: 160%;
     color: var(--subtitle-color);
+
 }
 
 .pricing-cost {
@@ -177,19 +219,55 @@ body {
     font-size: 30px;
     color: var(--pricing-cost-color);
 }
+
 .pricing-cost-text {
     font-weight: 400;
-font-size: 18px;
-color: var(--pricing-cost-text-color);
+    font-size: 18px;
+    color: var(--pricing-cost-text-color);
 }
 
 /* секція contact */
+
+.contact {
+    padding: 128px 0px 66px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 112px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-title {
+    margin-bottom: 37px;
+}
+
+.contact-text {
+    margin-bottom: 52px;
+}
 
 .contact-input {
     border: 1px solid var(--contact-input-color);
     border-radius: 10px;
     width: 450px;
     height: 80px;
+
+    padding: 26px 33px;
+}
+
+.contact-button {
+    padding: 24px 81px;
+    color: #ffffff;
+    width: 264px;
+    height: 80px;
+
+    border-radius: 10px;
+    background: #263238;
 }
 
 .contact-label {
@@ -200,6 +278,20 @@ color: var(--pricing-cost-text-color);
 }
 
 /* секція footer */
+
+.footer {
+    padding-top: 66px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 607px;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+}
 
 .footer-logo {
     color: var(--footer-logo-color);
