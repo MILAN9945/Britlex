@@ -285,12 +285,12 @@ body {
 
 .footer-container {
     display: flex;
-    gap: 607px;
 }
 
 .footer-text {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .footer-logo {
