@@ -227,8 +227,22 @@ body {
     justify-content: space-between;
     min-height: 650px;
     flex-basis: calc((100% - 120px) / 2);
-    flex-shrink: 0;
-    
+}
+
+.pricing-photo {
+    margin: 0px auto 0px;
+}
+
+.pricing-photo:nth-child(1) {
+    width: 311px;
+}
+
+.pricing-photo:nth-child(2) {
+    width: 391px;
+}
+
+.pricing-photo:nth-child(3) {
+    width: 340px;
 }
 
 .pricing-text {
