@@ -90,6 +90,10 @@ body {
 }
 
 /* секція hero */
+.hero {
+    padding: 51px 0px 51px;
+}
+
 .hero-container {
     display: flex;
 }
@@ -133,6 +137,69 @@ body {
 
 /* секція skills */
 
+.skills {
+    padding: 51px 0px 141px;
+}
+
+.skills-title {
+    text-align: center;
+    padding-bottom: 96px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.skills-sublist {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+
+        margin: 0px 45px 36px 43px;
+}
+
+.skills-item {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.skills-photo1 {
+    width: 390px;
+    margin: 0px auto;
+}
+
+.skills-photo2 {
+    width: 293px;
+    margin-left: auto;
+}
+
+.skills-photo3 {
+    width: 371px;
+}
+
+.skills-photo4 {
+    width: 382px;
+}
+
+.skills-item:nth-child(1) {
+    grid-row: 1/3;
+    padding: 35px 0px 92px;
+}
+
+.skills-item:nth-child(2) {
+    padding-bottom: 44px;
+}
+
+.skills-item:nth-child(4) {
+    display: flex;
+    grid-column: 2/4;
+    padding: 44px 0px;
+}
+
+
+
 .skills-subtitle {
     font-weight: 600;
     font-size: 30px;
@@ -140,8 +207,47 @@ body {
     color: var(--subtitle-color);
 }
 
+.subtitle1 {
+    margin: 87px 226px 5px 43px;
+
+}
+
+.subtitle2 {
+    margin: 0px 280px 0px 42px;
+
+}
+
+.subtitle3 {
+    margin: 47px 267px 0px 41px;
+
+}
+
+.subtitle4 {
+    margin: 0px 293px 0px 48px;
+
+}
+
 .skills-text {
     font-size: 16px;
+}
+
+.text1 {
+    max-width: 347px;
+}
+
+.text2 {
+    max-width: 344px;
+    margin: 0px 49px 33px 41px;
+}
+
+.text3 {
+    max-width: 363px;
+    margin: 0px 29px 35px 43px;
+}
+
+.text4 {
+    max-width: 328px;
+    margin: 0px 102px 25px 48px;
 }
 
 .skills-more {
@@ -149,16 +255,42 @@ body {
     font-size: 18px;
     color: var(--button-text-color);
 
-    border-radius: 5px;
-    width: 230px;
+    display: block;
+    width: 218px;
     height: 60px;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 5px;
     background: var(--button-color);
 }
+
+.important1 {
+    display: block;
+    width: 230px;
+    height: 60px;
+    text-align: center;
+    padding: 17px 0px 16px;
+    margin: 0px 162px 0px 43px;
+}
+
+.important2 {
+   margin: 0px 174px 0px 41px;
+}
+
+.important3 {
+   margin: 0px 174px 0px 43px;
+}
+
+.important4 {
+    margin: 0px 216px 0px 44px;
+}
+
+
 
 /* секція about */
 
 .about {
-    padding: 0px 0px 94px;
+    padding: 141px 0px 94px;
 }
 
 .about-subtitle {
@@ -292,6 +424,11 @@ body {
 
 .contact-text {
     margin-bottom: 52px;
+}
+
+.contact-form {
+    display: flex;
+    gap: 12px;
 }
 
 .contact-input {
